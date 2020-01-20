@@ -1,0 +1,18 @@
+{
+  "name": "truetosize-service",
+  "version": "1.0.0",
+  "description": "Stores true-to-size data and returns an average of that data for a given shoe (via HTTP).",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "Nick Nowak",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^7.0.0",
+    "pg": "^7.17.1"
+  }
+}
