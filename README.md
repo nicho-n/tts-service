@@ -2,7 +2,7 @@
 
 ## Local Setup
   - [Install postgresql](http://postgresguide.com/setup/install.html)
-  - If you are using a unix-based system, you can run the automatic setup script with `sh setup.sh`. This will create the database, tables and generate a configuration for you.
+  - If you are using a unix-based system, you can run the automatic setup script with `sh setup.sh`. This will create the database, tables, etc. and generate a configuration for you.
   - Otherwise, you will have to manually execute the sql scripts located in `db/scripts`, and change the username/password in `db/config/postgresConfig` to agree with your local configuration.
 ## Installation
 `npm install && npm start`
