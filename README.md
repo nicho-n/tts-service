@@ -13,8 +13,8 @@
    - Get TTS average: `url http://localhost:3001/Adidas/Yeezy`
 
 ## Notes
+- The POST request only works for shoes that are already present in the database. 'Adidas Yeezy' is included in the setup.
 - postgresConfig.js is commited as reference, but it is deleted and regenerated when you run `setup.sh`. It is there so Windows users know what to put in their config if they cannot run the script.
-- The POST request only works for shoes that are already present in the database. 
 - The user input is case-insensitive, the data fields are case sensitive - e.g `{brand: 'AdidaS'}` works but `{Brand: 'Adidas'}` does not.
 
 
