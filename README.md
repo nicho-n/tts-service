@@ -11,7 +11,7 @@
 ## Running 
 `npm start`
 ## Usage
-   - Post TTS data: `curl 'http://localhost:3001/' -H 'Content-Type: application/json' --data {"brand":"Adidas","name":"Yeezy","ttsData":3}`<br>
+   - Post TTS data: `curl 'http://localhost:3001/'  -H 'Content-Type: application/json'  --data '{"brand":"adidas","name":"yeezy","ttsData":2}' `<br>
    
    - Get TTS average: `curl http://localhost:3001/Adidas/Yeezy`
 
