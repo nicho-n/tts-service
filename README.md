@@ -10,7 +10,8 @@
 `npm test`
 ## Usage
    - Post TTS data: `curl 'http://localhost:3001/' -H 'Content-Type: application/json' --data {"brand":"Adidas","name":"Yeezy","ttsData":3}`<br>
-   - Get TTS average: `url http://localhost:3001/Adidas/Yeezy`
+   
+   - Get TTS average: `curl http://localhost:3001/Adidas/Yeezy`
 
 ## Notes
 - The POST request only works for shoes that are already present in the database. 'Adidas Yeezy' is included in the setup.
