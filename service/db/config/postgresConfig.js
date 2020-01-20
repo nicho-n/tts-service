@@ -1,6 +1,6 @@
 
 const postgresConfig = {
-  user: "kel",
+  user: "default",
   host: "localhost",
   database: "tts",
   password: "password",
