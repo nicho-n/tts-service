@@ -1,4 +1,4 @@
-sudo -u postgres psql -f db/scripts/create_database.sql  -v v1=$USER
+psql postgres -f db/scripts/create_database.sql  -v v1=$USER
 sudo -u $USER psql -f db/scripts/create_tables.sql yourdbname -v v1=$USER
 cd db;
 rm -rf config;
