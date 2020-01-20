@@ -9,8 +9,8 @@
 ## Testing
 `npm test`
 ## Usage
-   Post TTS data: `curl 'http://localhost:3001/' -H 'Content-Type: application/json' --data {"brand":"Adidas","name":"Yeezy","ttsData":3}`<br>
-   Get TTS average: `url http://localhost:3001/Adidas/Yeezy`
+   - Post TTS data: `curl 'http://localhost:3001/' -H 'Content-Type: application/json' --data {"brand":"Adidas","name":"Yeezy","ttsData":3}`<br>
+   - Get TTS average: `url http://localhost:3001/Adidas/Yeezy`
 
 ## Notes
 - postgresConfig.js is commited as reference, but it is deleted and regenerated when you run `setup.sh`. It is there so Windows users know what to put in their config if they cannot run the script.
