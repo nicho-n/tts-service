@@ -1,5 +1,5 @@
 var assert = require('assert');
-var calculator = require('../../util/calculator')
+var calculator = require('../../service/util/calculator')
 
 describe('calculator', () => {
     it('should calculate an average', function() {

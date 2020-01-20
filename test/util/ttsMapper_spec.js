@@ -1,5 +1,5 @@
 var assert = require('assert');
-var ttsMapper = require('../../util/ttsMapper')
+var ttsMapper = require('../../service/util/ttsMapper')
 
 describe('ttsMapper', () => {
     it('should map TTS values to an array', () => {

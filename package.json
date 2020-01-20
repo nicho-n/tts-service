@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive --exit",
-    "start": "node index.js"
+    "start": "node service/index.js"
   },
   "author": "Nick Nowak",
   "license": "ISC",
