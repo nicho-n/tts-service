@@ -1,5 +1,5 @@
 CREATE TABLE shoes (
-	brand VARCHAR(30) NOT NULL,
+  brand VARCHAR(30) NOT NULL,
   name VARCHAR(30) NOT NULL,
   PRIMARY KEY (brand, name)
 );
@@ -15,5 +15,5 @@ CREATE TABLE ttsData (
   CHECK (ttsData<=5)
 );
 
-INSERT INTO shoes (brand, name) VALUES ('adidas', 'yeezy')
-INSERT INTO ttsData (brand, name, ttsData) VALUES ('adidas', 'yeezy', 3)
+INSERT INTO shoes (brand, name) VALUES ('adidas', 'yeezy');
+INSERT INTO ttsData (brand, name, ttsData) VALUES ('adidas', 'yeezy', 3);
