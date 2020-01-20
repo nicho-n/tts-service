@@ -9,7 +9,7 @@
 ## Testing
 `npm test`
 ## Usage
-   Post TTS data: `curl 'http://localhost:3001/' -H 'Content-Type: application/json' --data {"brand":"Adidas","name":"Yeezy","ttsData":3}`
+   Post TTS data: `curl 'http://localhost:3001/' -H 'Content-Type: application/json' --data {"brand":"Adidas","name":"Yeezy","ttsData":3}`<br>
    Get TTS average: `url http://localhost:3001/Adidas/Yeezy`
 
 ## Notes
