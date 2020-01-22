@@ -28,6 +28,7 @@ describe("TTSService", () => {
         });
     });
     describe("Post /", () => {
+        // TODO: implement a mock here, or clean up with a /delete endpoint (requires additional security)
         it("should post TTS data", (done) => {
            chai.request(app)
                .post('/')
