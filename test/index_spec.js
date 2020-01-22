@@ -32,7 +32,7 @@ describe("TTSService", () => {
            chai.request(app)
                .post('/')
                .set({'Content-Type': 'application/json'})
-               .send({name: 'Yeezy', brand: 'Adidas',  ttsData: 3})
+               .send({name: 'Yeezy', brand: 'Adidas',  ttsData: 0})
                .end((err, res) => {
                    res.should.have.status(200);
                    done();

@@ -16,4 +16,3 @@ CREATE TABLE ttsData (
 );
 
 INSERT INTO shoes (brand, name) VALUES ('adidas', 'yeezy');
-INSERT INTO ttsData (brand, name, ttsData) VALUES ('adidas', 'yeezy', 3);
