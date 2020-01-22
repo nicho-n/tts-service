@@ -17,6 +17,15 @@ app.post('/', (req, res, next) => {
     });
 })
 
+app.delete('/', (req, res, next) => {
+    db.deleteTTSData(req.body).then(() => {
+       return res.status(200).send(); 
+    })
+    .catch(error => {
+        return next(error);
+    });
+})
+
 app.get('/:brand/:name', (req, res, next) => {
     db.getAverage(req.params).then((queryResponse) => {
         if (queryResponse.rowCount == 0) {

@@ -28,17 +28,30 @@ describe("TTSService", () => {
         });
     });
     describe("Post /", () => {
-        // TODO: implement a mock here, or clean up with a /delete endpoint (requires additional security)
         it("should post TTS data", (done) => {
            chai.request(app)
                .post('/')
                .set({'Content-Type': 'application/json'})
-               .send({name: 'Yeezy', brand: 'Adidas',  ttsData: 0})
+               .send({name: 'Yeezy', brand: 'Adidas',  ttsData: 3})
                .end((err, res) => {
                    res.should.have.status(200);
                    done();
                 });
        });
    });
+
+   describe("Delete /", () => {
+    it("should delete TTS data", (done) => {
+        chai.request(app)
+            .delete('/')
+            .set({'Content-Type': 'application/json'})
+            .send({name: 'Yeezy', brand: 'Adidas',  ttsValue: 3})
+            .end((err, res) => {
+                res.should.have.status(200);
+                done();
+             });
+    });
+
+   })
 
 });
