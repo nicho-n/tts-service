@@ -17,7 +17,7 @@ describe("TTSService", () => {
                     done();
                  });
         });
-        it("should get return 404 for nonexistent shoe", (done) => {
+        it("should return 404 for nonexistent shoe", (done) => {
             chai.request(app)
                 .get('/Imaginary/Shoe')
                 .set({'Content-Type': 'application/json'})
