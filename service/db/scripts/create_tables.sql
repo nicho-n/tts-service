@@ -11,7 +11,7 @@ CREATE TABLE ttsData (
   name VARCHAR(30) NOT NULL,
   PRIMARY KEY (id), 
   FOREIGN KEY (brand, name) REFERENCES shoes(brand, name) ON DELETE CASCADE,
-  CHECK (ttsData>=0),
+  CHECK (ttsData>=1),
   CHECK (ttsData<=5)
 );
 
